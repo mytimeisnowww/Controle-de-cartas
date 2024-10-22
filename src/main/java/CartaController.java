@@ -29,37 +29,6 @@ public class CartaController {
         }
     }
 
-    import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
-import java.util.Optional;
-
-@RestController
-@RequestMapping("/cartas")
-public class CartaController {
-
-    @Autowired
-    private CartaService cartaService;
-
-    // Listar todas as cartas
-    @GetMapping
-    public List<Carta> listarCartas() {
-        return cartaService.listarCartas();
-    }
-
-    // Buscar carta por ID
-    @GetMapping("/{id}")
-    public ResponseEntity<Carta> buscarCartaPorId(@PathVariable String id) {
-        Optional<Carta> carta = cartaService.buscarCartaPorId(id);
-        if (carta.isPresent()) {
-            return ResponseEntity.ok(carta.get());
-        } else {
-            return ResponseEntity.notFound().build();
-        }
-    }
-
     // Adicionar nova carta
     @PostMapping
     public Carta adicionarCarta(@RequestBody Carta carta) {
