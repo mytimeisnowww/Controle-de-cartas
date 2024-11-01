@@ -5,4 +5,4 @@ Descrição: Usada pelos administradores do jogo e deve permitir o cadastro de c
 1 - descrição da carta (por exemplo, numa possível carta do José Nogueira Leite a narrativa poderia ser “Fundador do Inatel.”.)
 
 
-OBS.: Os diagramas e a apresentação estão na pasta 'diagrams'.
+OBS.: Os diagramas e a apresentação estão na pasta 'diagramas'.
