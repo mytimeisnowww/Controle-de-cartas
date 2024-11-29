@@ -15,7 +15,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 ![Diagrama de caso de uso](diagramas/CasoDeUsoUML.png)
 
 ### Diagrama de classes
-![Diagrama UML com Strategy](diagramas/ClasseUML.jpeg)
+![Diagrama UML](diagramas/DiagramaClasseUML.jpg)
 
 ## Design Pattern: Strategy
 
