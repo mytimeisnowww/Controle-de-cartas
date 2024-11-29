@@ -1,0 +1,7 @@
+com\example\trabalho\controller\CartaController.class
+com\example\trabalho\repository\CartaRepository.class
+com\example\trabalho\service\CartaService.class
+com\example\trabalho\adapter\JsonCartaAdapter.class
+com\example\trabalho\TrabalhoApplication.class
+com\example\trabalho\adapter\CartaExporter.class
+com\example\trabalho\model\Carta.class
